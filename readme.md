@@ -13,9 +13,15 @@ laravel的flash消息插件有很多，但是不想很喜欢bootstrap的那种�
     Bacao\Alert\AlertProvider::class,
  ]
 ```
-当然也可以：
+当然也可以添加：
 ```
 'aliases' => [
+    ...
     'Alert'=>Bacao\Alert\Alert::class
 ]
 ```
+最后执行：
+```
+php artisan vendor:publish --provider="Bacao\Alert\AlertProvider"
+```
+enjoy！
