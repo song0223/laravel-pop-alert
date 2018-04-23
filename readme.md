@@ -10,7 +10,7 @@ composer require bacao/alert
 ```
 'providers' => [
     ...
-    Bacao\Alert\AlertProvider::class,
+    Bacao\Alert\AlertProvider::class
  ]
 ```
 当然也可以添加：
