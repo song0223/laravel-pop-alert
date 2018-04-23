@@ -4,7 +4,7 @@ laravel的flash消息插件有很多，但是不想很喜欢bootstrap的那种�
 
 用法：
 ```
-composer require "bacao/alert":"1.0"
+composer require bacao/alert
 ```  
 然后再app.php添加：
 ```
