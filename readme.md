@@ -24,4 +24,5 @@ laravel的flash消息插件有很多，但是不想很喜欢bootstrap的那种�
 ```
 php artisan vendor:publish --provider="Bacao\Alert\AlertProvider"
 ```
-enjoy！
+enjoy！  
+![image](https://github.com/song0223/laravel-pop-alert/blob/master/%E6%BC%94%E7%A4%BA.gif)
