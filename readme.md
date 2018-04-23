@@ -4,7 +4,7 @@ laravel的flash消息插件有很多，但是不想很喜欢bootstrap的那种�
 
 用法：
 ```
- composer require "bacao/alert":"1.0"
+composer require "bacao/alert":"1.0"
 ```  
 然后再app.php添加：
 ```
@@ -24,5 +24,13 @@ laravel的flash消息插件有很多，但是不想很喜欢bootstrap的那种�
 ```
 php artisan vendor:publish --provider="Bacao\Alert\AlertProvider"
 ```
-enjoy！  
+demo(四种样式可以选择):
+```
+user Bacao\Alert\Alert;
+Alert::('success' ,'成功');
+Alert::('error' ,'失败');
+Alert::('info' ,'默认');
+Alert::('warning' ,'警告');
+```
+最后！enjoy！  
 ![image](https://github.com/song0223/laravel-pop-alert/blob/master/%E6%BC%94%E7%A4%BA.gif)
