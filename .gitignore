@@ -2,6 +2,7 @@
 composer.phar
 composer.lock
 /.idea
+
 *.css linguist-language=php
 *.less linguist-language=php
 *.js linguist-language=php
