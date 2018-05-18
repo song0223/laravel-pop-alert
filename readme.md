@@ -31,17 +31,10 @@ php artisan vendor:publish --provider="Bacao\Alert\AlertProvider"
 demo(四种样式可以选择):
 ```
 user Bacao\Alert\Alert;
-<<<<<<< HEAD
 Alert::success('成功');
 Alert::error('失败');
 Alert::info('默认');
 Alert::warning('警告');
-=======
-Alert::('success' ,'成功');
-Alert::('error' ,'失败');
-Alert::('info' ,'默认');
-Alert::('warning' ,'警告');
->>>>>>> 3f0c6ab1ce1e63352c7a008dc3f0cfaf7aadcf69
 ```
 最后！enjoy！  
 ![image](https://github.com/song0223/laravel-pop-alert/blob/master/%E6%BC%94%E7%A4%BA.gif)
