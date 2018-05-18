@@ -21,7 +21,7 @@
             "Bacao\\Alert": "src/"
         },
         "files": [
-            "src/bacao/bcalert/functions.php"
+            "src/bacao/alert/functions.php"
         ]
     }
 }
