@@ -20,14 +20,15 @@ composer require bacao/alert
     'Alert'=>Bacao\Alert\Alert::class
 ]
 ```
-页面公共部分添加：
-```
-@include('bcalert::message')
-```
-最后执行：
+执行：
 ```
 php artisan vendor:publish --provider="Bacao\Alert\AlertProvider"
 ```
+最后页面公共部分添加：
+```
+@include('bcalert::message')
+```
+
 demo(四种样式可以选择):
 ```
 user Bacao\Alert\Alert;
